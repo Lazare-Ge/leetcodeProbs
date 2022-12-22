@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String str = "";
+        int res = CharacterReplacement424.characterReplacement(str, 100);
+        System.out.println(res);
     }
 }
