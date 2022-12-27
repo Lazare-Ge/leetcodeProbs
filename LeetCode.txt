@@ -1,0 +1,14 @@
+299 - Bulls and cows:
+	solved it with 2 hashmaps, then with two arrays, ->can also be solved with 1 array in one iteration.<-
+424 - Longest Repeating Character Replacement:
+	not solved yet.
+844 - Backspace String Compare:
+	solved with stack, ->can also be solved in O(n) without stack<-
+692 - Top K Frequent Words
+	solved with Entry class. ->different solutions would be nice<-
+394 - Decode String
+	having a hard time solving. ... solved with 2 stacks and String res variable. (Solving it with recursion would be a good exercise)
+
+
+
+
