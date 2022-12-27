@@ -1,7 +1,8 @@
+
 public class Main {
     public static void main(String[] args) {
-        String str = "ABBAB";
-        int res = CharacterReplacement424.characterReplacement(str, 1);
+        String str = "3[a2[c]d]";
+        String res = DecodeString.decodeString(str);
         System.out.println(res);
     }
 }
