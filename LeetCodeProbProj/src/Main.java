@@ -34,6 +34,11 @@ public class Main {
                 {3},
                 {4},
         };
-        System.out.println(SpiralMatrix.spiralOrder(testMatrix6).toString());
+        int [][] testMatrix7 = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9},
+        };
+        System.out.println(SpiralMatrix.spiralOrder(testMatrix7).toString());
     }
 }
