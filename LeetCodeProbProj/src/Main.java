@@ -7,6 +7,8 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         int[] arr1 = {0,1,2,3,4,5,6};
-        TreeNode root = ConvertSortedArrayToBinarySearchTree.sortedArrayToBST(arr1);
+        ArrayList<Integer> arr2 = new ArrayList<>(Arrays.asList(5,3,6,2,4,null,null,1));
+        TreeNode root = new TreeNode(arr2);
+        KthSmallestElementInABST.kthSmallest(root, 3);
     }
 }
