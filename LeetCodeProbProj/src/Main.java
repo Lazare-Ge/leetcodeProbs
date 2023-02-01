@@ -6,9 +6,15 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr1 = {0,1,2,3,4,5,6};
-        ArrayList<Integer> arr2 = new ArrayList<>(Arrays.asList(5,3,6,2,4,null,null,1));
+        //int[] arr1 = {0,1,2,3,4,5,6};
+        ArrayList<Integer> arr2 = new ArrayList<>(Arrays.asList(7,3,15,null,null,9,20));
         TreeNode root = new TreeNode(arr2);
-        KthSmallestElementInABST.kthSmallest(root, 3);
+        BSTIterator bstIt = new BSTIterator(root);
+        System.out.println(bstIt.next());
+        System.out.println(bstIt.next());
+        System.out.println(bstIt.next());
+        System.out.println(bstIt.next());
+        System.out.println(bstIt.next());
+        System.out.println(bstIt.next());
     }
 }
