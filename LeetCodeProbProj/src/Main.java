@@ -6,11 +6,13 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] grid = {
-                {2,1,1},
-                {1,1,0},
-                {0,1,1},
+        int[][] heights = {
+                {1,2,2,3,5},
+                {3,2,3,4,4},
+                {2,4,5,3,1},
+                {6,7,1,4,5},
+                {5,1,1,2,4}
         };
-        System.out.println(RottingOranges.orangesRotting(grid));
+        PacificAtlanticWaterFlow.pacificAtlantic(heights);
     }
 }
